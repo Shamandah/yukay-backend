@@ -23,4 +23,8 @@ urlpatterns = [
         "api/",
         include("menu.urls")
     ),
+    path(
+        "api/cart/",
+        include("cart.urls")
+    ),
 ]
