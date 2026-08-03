@@ -93,6 +93,10 @@ DATABASES = {
         "PORT": config("DB_PORT"),
     }
 }
+# Paystack Configuration
+PAYSTACK_PUBLIC_KEY = config("PAYSTACK_PUBLIC_KEY")
+PAYSTACK_SECRET_KEY = config("PAYSTACK_SECRET_KEY")
+PAYSTACK_CALLBACK_URL = config("PAYSTACK_CALLBACK_URL")
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
